@@ -5,9 +5,18 @@
     <title>Hi there</title>
   </head>
   <body>
+    <form id="sub-form" onSubmit="getValue()">
+      <input id="input-box" type="text" name="subreddit" placeholder="Enter a subreddit">
+      <input type="submit" value="Submit">
+    </form>
+
+    <div class="new-post">
+
+    </div>
 
   </body>
   <script src="http://js.pusher.com/2.2/pusher.min.js"></script>
   <script src="js/pusher.js"></script>
+  <script src="js/actions.js"></script>
 
 </html>
